@@ -1,1 +1,9 @@
-<p>feedback-app works!</p>
+
+<div class="container">
+  <div class="card" *ngFor="let feedback of items">
+    <h3 class="num-display">{{feedback.rating}}</h3>
+    <p>{{feedback.text}}</p>
+
+  </div>
+
+</div>

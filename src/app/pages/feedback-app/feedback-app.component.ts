@@ -1,3 +1,4 @@
+import { list } from './../../Data/feedback_data';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -11,5 +12,5 @@ export class FeedbackAppComponent implements OnInit {
 
   ngOnInit(): void {
   }
-  
+  items = list
 }
